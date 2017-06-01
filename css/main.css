@@ -23,7 +23,7 @@
  	position: fixed;
  	top: 0;
  	width: 100%;
- 	z-index: 9999;
+ 	z-index: 3000;
  }
 
  .navegador{
@@ -124,6 +124,7 @@ header .fa-star{
 	text-align: center;
 	height: 120vh;
 	color: #000;
+	cursor: pointer;
 }
 
 .titulo-dos{
@@ -163,9 +164,35 @@ header .fa-star{
   position: fixed;
   top:0;
   left:0;
+  z-index: 4000;
 }
-#box-modal-portfolio .fa{
+
+#box-modal-portfolio .modal-body{
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 100px;
+}
+.titulo-cinco{
 	color: #000;
+	text-align: center;
+	position: absolute;
+	top: 50px;
+	left: 500px;
+}
+
+.texto-modal{
+	color: #000;
+	font-size: 14px;
+	text-align: center;
+}
+
+.fa-times-circle{
+ color: #000;
+}
+.close{
+	cursor: pointer;
+	color: #fff;
 	font-size: 30px;
 	position: absolute;
 	top: 30px;
