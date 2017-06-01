@@ -1,4 +1,361 @@
 /*
  * Estilos de tu proyecto
  */
- 
+ *{
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	margin: 0;
+	padding: 0;
+ }
+
+ body{
+ 	font-family: 'Open Sans', sans-serif;
+ }
+
+ h2{
+ 	text-align: center;
+ }
+
+
+ /**********Navegador**********/
+ .contenedor-navegador{
+ 	position: fixed;
+ 	top: 0;
+ 	width: 100%;
+ 	z-index: 9999;
+ }
+
+ .navegador{
+ 	background-color: #0A0620;
+ 	height: 60px;
+ 	position: relative;
+ }
+
+ .navegador h3{
+ 	color: white;
+ 	position: absolute;
+ 	left: 40px;
+ 	top: 15px
+ }
+
+ .navegador ul{
+ 	text-align: right;
+ 	width: 90%;
+ 	margin:0;
+ 	position: absolute;
+ 	top: 20px;
+ 	bottom: 20px;
+ }
+
+ .navegador li{
+ 	float: none;
+ 	display: inline-block;
+ 	list-style: none;
+ }
+
+ .navegador li a{
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	padding: 20px;
+ }
+
+ .navegador li a:hover{
+ 	background-color: rgba(77, 185, 171, 0.85);
+ }
+
+ /**************header******************/
+
+header{
+	background-color: #58D2C1;
+	width: 100%;
+	height: 95vh;
+	margin: 0 auto;
+	text-align: center;
+}
+ .person{
+ 	padding-top:80px;
+ 	margin: 0 auto;
+ 	display: block;
+ }
+
+.informacion{
+	color: white;
+}
+
+.informacion h1{
+	font-size: 48px;
+	font-size: bold;
+	text-align: center;
+}
+
+.rayita{
+	margin: 0 auto;
+	height: 4px;
+    width: 25%;
+    background-color: #fff;
+    position: relative;
+}
+
+.estrella{
+	background-color: #58D2C1;
+	position: absolute;
+	top: 10%; 
+  	left: 50%;
+  	transform: translate(-50%, -70%);
+}
+
+header .fa-star{
+	width: 30%;
+	text-align: center;
+	color: #fff;
+}
+
+.informacion h2{
+	font-style: regular;
+	color: #fff;
+}
+
+
+/****Section portafolio*****/
+#portfolio{
+	margin: 0 auto;
+	text-align: center;
+	height: 120vh;
+	color: #000;
+}
+
+.titulo-dos{
+	color: #000;
+	z-index: 1000;
+	padding-top: 30px;
+
+}
+
+.rayita-dos{
+	margin: 0 auto;
+	height: 4px;
+    width: 25%;
+    background-color: #000;
+    position: relative;
+}
+
+.estrella-dos{
+	background-color: #fff;
+	position: absolute;
+	top: 10%; 
+  	left: 50%;
+  	transform: translate(-50%, -67%);
+}
+
+#portfolio .fa-star {
+	width: 25%;
+	text-align: center;
+	color: #000;
+}
+
+/****javascript*****/
+#box-modal-portfolio{
+  background-color: whitesmoke;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top:0;
+  left:0;
+}
+#box-modal-portfolio .fa{
+	color: #000;
+	font-size: 30px;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+.hide {
+	display: none;
+}
+
+/****About*****/
+#about{
+	background-color: #58D2C1;
+	width: 100%;
+	height: 50vh;
+	margin: 0 auto;
+}
+
+#about .fa-star{
+	width: 25%;
+	text-align: center;
+	color: #fff;
+}
+
+
+.container{
+	color: white;
+	text-align: justify;
+	padding: 20px 50px 0 50px;
+}
+
+.descarga{
+	text-decoration: none;
+	display: block;
+    margin: 0 auto;
+    padding: 20px;
+    width: 30%;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.descarga .fa-download{
+	width: 10%;
+	text-align: center;
+}
+.container a:hover{
+	color: #000;
+	background-color: rgba(77, 185, 171, 0.15);
+}
+
+/**************Contact***************/
+#contact{
+	height: 100vh;
+}
+
+.titulo-tres{
+	color: #000;
+	z-index: 2000;
+	padding-top: 30px;
+}
+
+.rayita-tres{
+	margin: 0 auto;
+	height: 4px;
+    width: 25%;
+    background-color: #000;
+    position: relative;
+}
+
+.estrella-tres{
+	background-color: #fff;
+	position: absolute;
+	top: 10%; 
+  	left: 50%;
+  	transform: translate(-50%, -67%);
+}
+
+#contact .fa-star {
+	width: 25%;
+	text-align: center;
+	color: #000;
+}
+
+#contact input{
+	display: block;
+	margin: 0 auto;
+	border:none;
+	border-bottom: 1px solid #BFBFBF;
+	width: 70%;
+	text-align: left;
+	padding: 20px 0;
+	outline: 0;
+}
+
+#contact input[placeholder]{
+	font-size: 18px;
+}
+
+#contact textarea{
+	display: block;
+	margin: 0 auto;
+	border:none;
+	border-bottom: 1px solid #BFBFBF;
+	width: 70%;
+	text-align: left;
+	padding: 40px 0;
+	outline: 0;
+}
+
+#contact textarea[placeholder]{
+	font-size: 18px;
+}
+
+#contact a{
+	background-color: #58D2C1;
+	color: #fff;
+	padding: 20px;
+	border-radius: 15px;
+	text-decoration: none;
+}
+
+#contact a:hover{
+	color: #000;
+	background-color: rgba(77, 185, 171, 0.85);
+}
+
+/*********************Ubicación***********************/
+#ubicacion{
+	background-color: #1E2335;
+	width: 100%;
+	height: 35vh;
+}
+
+.titulo-cuatro{
+	color: #fff;
+	text-align: center;
+	padding: 20px 0 20px 0;
+}
+
+#ubicacion p{
+	text-align: center;
+}
+
+.redes{
+	text-align: center;
+	padding: 7px;
+}
+.redes .fa-facebook-official{
+	padding: 10px;
+	border:1px solid #fff;
+	border-radius: 50%;
+}
+.redes .fa-facebook-official:hover{
+	background-color: rgba(77, 185, 171, 0.85);
+}
+
+.redes .fa-google-plus{
+	padding: 10px;
+	border:1px solid #fff;
+	border-radius: 50%;
+}
+.redes .fa-google-plus:hover{
+	background-color: rgba(77, 185, 171, 0.85);
+}
+
+.redes .fa-twitter{
+	padding: 10px;
+	border:1px solid #fff;
+	border-radius: 50%;
+}
+.redes .fa-twitter:hover{
+	background-color: rgba(77, 185, 171, 0.85);
+}
+
+.redes .fa-linkedin-square{
+	padding: 10px;
+	border:1px solid #fff;
+	border-radius: 50%;
+}
+.redes .fa-linkedin-square:hover{
+	background-color: rgba(77, 185, 171, 0.85);
+}
+
+
+/********************Footer************************/
+footer{
+  text-align: center;
+  height: 70px;
+  background-color: #373b47;
+  color: white;
+  padding-top: 20px;
+}
