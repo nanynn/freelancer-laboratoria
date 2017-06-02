@@ -14,7 +14,7 @@
 			bodyModal.classList.add('modal-body');
 
 			contenedor=document.createElement('h2');
-			tit= document.createTextNode('Portfolio Uno');
+			tit= document.createTextNode('TITULO ILUSTRACIÓN');
 			contenedor.classList.add('titulo-cinco');
 
 			parrafo=document.createElement('p');

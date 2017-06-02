@@ -156,6 +156,10 @@ header .fa-star{
 	color: #000;
 }
 
+.portfolio-img:hover{
+	z-index: 3000;
+	background-color: rgba(77, 185, 171, 0.95);
+}
 /****javascript*****/
 #box-modal-portfolio{
   background-color: whitesmoke;
@@ -171,14 +175,14 @@ header .fa-star{
 	width: 60%;
 	margin: 0 auto;
 	text-align: center;
-	padding: 100px;
+	padding: 120px;
 }
 .titulo-cinco{
 	color: #000;
 	text-align: center;
 	position: absolute;
 	top: 50px;
-	left: 500px;
+	left: 450px;
 }
 
 .texto-modal{
@@ -358,7 +362,6 @@ header .fa-star{
 .redes .fa-google-plus:hover{
 	background-color: rgba(77, 185, 171, 0.85);
 }
-
 .redes .fa-twitter{
 	padding: 10px;
 	border:1px solid #fff;
